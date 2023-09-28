@@ -3,6 +3,7 @@ body{
     flex-direction: column;
 font-family: roboto; sans-serif;
 height: 100vh;
+margin:0;
 }
 
 img{
@@ -15,6 +16,8 @@ img{
     display:flex;
     justify-content: space-between;
     font-size: 24px;
+    background-color: burlywood;
+
 
 }
 
@@ -26,10 +29,14 @@ ul {
     gap: 30px;
   }
  .awesome{
-    margin:100px;
+    background-color: burlywood;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:50px;
+    padding-bottom:50px;
     display: flex;
     justify-content: space-evenly;
-    gap: 50px;
+    gap: 15px;
 
  }
 
@@ -51,5 +58,43 @@ ul {
     font-weight: extra-bold;
  }
 
+ h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight:extra-bold;
+ }
 
+.random{
+    display:flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.image1{
+    height:150px;
+    width:150px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    text-align: center;
+
+  }
+
+.quote{
+    background-color: #e5e7eb;
+    font-size:36px;
+    font-style: italic;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left:200px;
+    padding-right:200px;
+}
 
