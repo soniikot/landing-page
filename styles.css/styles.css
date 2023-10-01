@@ -91,10 +91,16 @@ ul {
     font-size:36px;
     font-style: italic;
     display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding-left:200px;
+    flex-direction: column;
+justify-content: center;
+    padding-left:350px;
     padding-right:200px;
+    text-align: center;
+}
+
+.author{
+    display: flex;
+justify-content: end;
+    font-weight: bolder;
 }
 
