@@ -92,15 +92,25 @@ ul {
     font-style: italic;
     display: flex;
     flex-direction: column;
-justify-content: center;
-    padding-left:350px;
-    padding-right:200px;
-    text-align: center;
+justify-content: flex-end;
+    padding-left:100px;
+    padding-right:100px;
+    text-align: right;
 }
 
-.author{
+.action{
     display: flex;
-justify-content: end;
-    font-weight: bolder;
+    margin:5em;
+    background-color: lightblue;
+    align-items: center;
+    padding:10px;
+    flex:none;
 }
 
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: burlywood;
+    padding:10px;
+}
